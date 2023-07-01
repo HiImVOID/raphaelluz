@@ -5,8 +5,9 @@ import { Lightbulb, LightbulbOff } from 'lucide'
 
 export default function Navbar() {
 	return (
-		<div>
-			<header className='flex justify-between items-center p-3 gap-x-10 w-full rounded-b-xl backdrop-blur-sm bg-slate-700/40'>
+		<div className='w-full flex backdrop-blur-sm bg-slate-700/40'>
+		<div className='container w-full  mx-auto '>
+			<header className='flex   justify-between items-center p-3 gap-x-10 w-full rounded-b-xl '>
 				{/* Logo */}
 				<div className='flex gap-x-3'>
 					{/* <Image
@@ -64,6 +65,7 @@ export default function Navbar() {
 					</ul>
 				</nav>
 			</header>
+		</div>
 		</div>
 	)
 }
