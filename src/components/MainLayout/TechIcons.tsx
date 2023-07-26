@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Git_icon from '@/../public/tecnologias/Git_icon.png'
-import HTML_icon from '@/../public/tecnologias/html_icon.png'
+import HTML_icon from '@/../public/tecnologias/HTML_icon.png'
 import CSS_icon from '@/../public/tecnologias/css-3.svg'
 import JS_icon from '@/../public/tecnologias/JavaScript-logo.png'
 import TS_icon from '@/../public/tecnologias/TS_icon.png'
