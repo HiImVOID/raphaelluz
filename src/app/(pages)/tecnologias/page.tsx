@@ -1,6 +1,9 @@
+import TechIcons from "@/components/MainLayout/TechIcons"
+
 const Tecnologias = () => {
 	return (
 		<>
+			<TechIcons />
 			<h3>Confira Aqui minhas Habilidades em cada tecnologia</h3>
 			<main className='flex bg-red-400 w-[80%] justify-center p-3'>
 				<section>
