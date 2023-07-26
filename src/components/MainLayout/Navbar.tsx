@@ -4,7 +4,7 @@ import Image from 'next/image'
 import BsSearch from 'react-icons/bs'
 import Link from 'next/link'
 import { AlignJustify, Lightbulb, LightbulbOff } from 'lucide'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 export default function Navbar() {
 	const [isOpen, setisOpen] = useState(false)
@@ -13,11 +13,13 @@ export default function Navbar() {
 		return isOpen == true ? setisOpen(false) : setisOpen(true)
 	}
 
-	{
-		isOpen === true
-			? document.body.classList.add('overflow-hidden')
-			: document.body.classList.remove('overflow-hidden')
-	}
+	useEffect(() => {
+		{
+			isOpen === true
+				? document.body.classList.add('overflow-hidden')
+				: document.body.classList.remove('overflow-hidden')
+		}
+	})
 
 	return (
 		<>
