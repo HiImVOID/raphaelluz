@@ -13,7 +13,6 @@ export default function Home() {
 					Mais que um front-end, uma LUZ.
 				</h2>
 			</div>
-
 			<About />
 			<TechIcons />
 			<br />
