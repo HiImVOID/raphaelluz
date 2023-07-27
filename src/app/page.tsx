@@ -1,6 +1,6 @@
-import About from '@/components/mainLayout/about'
-import TechIcons from '@/components/mainLayout/techIcons'
-import PortifolioGrid from '@/components/portifolio/portifolioGrid'
+import About from '@/components/mainLayout/aabout'
+import TechIcons from '@/components/mainLayout/ttechIcons'
+import PortifolioGrid from '@/components/portifolio/pportifolioGrid'
 
 export default function Home() {
 	return (
