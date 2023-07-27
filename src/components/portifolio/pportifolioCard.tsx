@@ -15,7 +15,7 @@ interface PortifolioCardProps {
 		name: string
 		title: string
 		description: string
-		photo: string
+		photo: any
 		linkLive: string
 		linkGit: string
 	}

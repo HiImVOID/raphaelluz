@@ -1,6 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
+import BibliotecaOcultista from '@/../public/portifolio/Screenshot_1.jpg'
+import Soma from '@/../public/portifolio/Screenshot_2.jpg'
+import Lux from '@/../public/portifolio/Screenshot_3.jpg'
+
 const Portifólio = () => {
 	return (
 		<section className='p-5  backdrop-blur-lg bg-gray-400/30 rounded-3xl'>
@@ -65,7 +69,7 @@ const Portifólio = () => {
 				</div>
 				<div className='flex justify-center'>
 					<Image
-						src={'/portifolio/BibliotecaOcultista.jpg'}
+						src={BibliotecaOcultista}
 						width={343}
 						height={343}
 						alt='Biblioteca Ocultista'
