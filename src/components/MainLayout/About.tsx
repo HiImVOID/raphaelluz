@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Perfil from '@/../public/Profile.jpg'
+
 const About = () => {
 	return (
 		<div className='flex flex-col lg:flex-row gap-8 items-center '>
