@@ -23,7 +23,7 @@ interface PortifolioCardProps {
 
 const PortifolioCard = ({ item }: PortifolioCardProps) => {
 	return (
-		<article className='flex flex-col justify-between w-full h-full backdrop-blur-lg bg-gray-400/30 rounded-3xl overflow-hidden '>
+		<article className='flex  flex-col justify-between w-full h-full backdrop-blur-lg bg-gray-400/30 rounded-3xl overflow-hidden '>
 			<div className=''>
 				<Image
 					width={700}

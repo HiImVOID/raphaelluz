@@ -24,7 +24,7 @@ export default function Navbar() {
 			{isOpen === true ? (
 				<div className='sticky top-0 z-20'>
 					<div
-						className=' fixed h-full inset-0  bg-slate-600/50 backdrop-blur-sm flex w-screen '
+						className=' fixed h-full inset-0   bg-slate-600/50 backdrop-blur-sm flex w-screen '
 						onClick={toggleisOpen}>
 						<div className='w-full' />
 

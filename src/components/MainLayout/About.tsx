@@ -18,7 +18,7 @@ const About = () => {
 						<span className='font-bold'>
 							Ciências da Computação{' '}
 						</span>
-						& <span className='font-bold'>Psicologia</span>,
+						& <span className='font-bold '>Psicologia</span>,
 						trabalho como{' '}
 						<span className='font-bold'>freelancer</span>, buscando
 						uma oportunidade de{' '}

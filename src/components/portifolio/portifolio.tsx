@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Portifólio = () => {
 	return (
-		<section className='p-5 backdrop-blur-lg bg-gray-400/30 rounded-3xl'>
+		<section className='p-5  backdrop-blur-lg bg-gray-400/30 rounded-3xl'>
 			<div className='flex flex-col lg:flex-row gap-3 gap-y-5 justify-between'>
 				<div className='flex flex-col gap-y-5 w-full pl-5'>
 					<h2 className='text-2xl'>Biblioteca Ocultista</h2>

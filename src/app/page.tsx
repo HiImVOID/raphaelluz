@@ -5,7 +5,7 @@ import PortifolioGrid from '@/components/portifolio/portifolioGrid'
 export default function Home() {
 	return (
 		<>
-			<div className='flex flex-col lg:flex-row gap-3  justify-center items-center w-full h-[68vh]  rounded-3xl overflow-hidden'>
+			<div className='flex flex-col  lg:flex-row gap-3  justify-center items-center w-full h-[68vh]  rounded-3xl overflow-hidden'>
 				<h1 className='font-black text-5xl md:text-7xl'>Raphael Luz</h1>
 				<h2 className='p-3'>
 					Designs Responsivos e orientados a Mobile-First.
