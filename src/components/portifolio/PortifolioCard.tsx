@@ -9,15 +9,6 @@ import TS_icon from '@/../public/tecnologias/TS_icon.png'
 import React_icon from '@/../public/tecnologias/React_icon.png'
 import Nest_icon from '@/../public/tecnologias/Next_icon.png'
 import Tailwind_icon from '@/../public/tecnologias/Tailwind_icon.png'
-import Node_icon from '@/../public/tecnologias/Node_icon.png'
-import BootsTrap_icon from '@/../public/tecnologias/BootsTrap_icon.png'
-import Python_icon from '@/../public/tecnologias/Python_icon.png'
-import SQL_icon from '@/../public/tecnologias/SQL_icon.png'
-import Mongo_icon from '@/../public/tecnologias/Mongo_icon.png'
-import API_icon from '@/../public/tecnologias/API_icon.png'
-
-import dataPortifolio from './services/dataPortifolio'
-
 interface PortifolioCardProps {
 	item: {
 		id: number
