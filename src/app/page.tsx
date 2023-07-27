@@ -1,5 +1,5 @@
-import About from '@/components/MainLayout/About'
-import TechIcons from '@/components/MainLayout/TechIcons'
+import About from '@/components/mainLayout/About'
+import TechIcons from '@/components/mainLayout/TechIcons'
 import PortifolioGrid from '@/components/portifolio/PortifolioGrid'
 
 export default function Home() {
