@@ -1,4 +1,4 @@
-import PortifolioCard from './PortifolioCard'
+import PortifolioCard from './portifolioCard'
 import dataPortifolio from './services/dataPortifolio'
 
 const PortifolioGrid = () => {
