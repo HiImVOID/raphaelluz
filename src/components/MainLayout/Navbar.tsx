@@ -1,9 +1,7 @@
 'use client'
 
-import Image from 'next/image'
-import BsSearch from 'react-icons/bs'
 import Link from 'next/link'
-import { AlignJustify, Lightbulb, LightbulbOff } from 'lucide'
+
 import { useEffect, useState } from 'react'
 
 export default function Navbar() {
