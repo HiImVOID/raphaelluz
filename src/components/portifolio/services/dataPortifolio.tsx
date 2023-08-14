@@ -20,7 +20,7 @@ const dataPortifolio = [
 		description:
 			'Soma atua com projetos e instalações de mobilias comeriais. ',
 		photo: Soma,
-		linkLive: 'https://www.bibliotecaocultista.com/',
+		linkLive: 'https://soma-projetos-comerciais.vercel.app/',
 		linkGit: 'https://github.com/HiImVOID/somaProjetosComerciais',
 	},
 	{
@@ -30,8 +30,8 @@ const dataPortifolio = [
 		description:
 			'Projeto Pessoal que venho desenvolvendo a fim de evoluir minhas habilidades como desenvolvedor.',
 		photo: Lux,
-		linkLive: 'https://www.bibliotecaocultista.com/',
-		linkGit: 'https://github.com/HiImVOID/biblioteca-ocultista',
+		linkLive: '#',
+		linkGit: '#',
 	},
 ]
 
