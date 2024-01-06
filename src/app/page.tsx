@@ -1,4 +1,5 @@
 import About from '@/components/pages/home/about'
+import Stacks from '@/components/pages/home/stacks'
 import TechIcons from '@/components/pages/home/techIcons'
 import PortifolioGrid from '@/components/pages/portfolio/portifolioGrid'
 
@@ -16,7 +17,7 @@ export default function HomePage() {
 			<About />
 			<TechIcons />
 			<br />
-			<br />
+			<Stacks />
 			<br />
 			<h6 className='font-bold text-2xl mb-4'>Projetos:</h6>
 			<PortifolioGrid />
