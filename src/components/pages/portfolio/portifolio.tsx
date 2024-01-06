@@ -5,7 +5,7 @@ import BibliotecaOcultista from '@/../public/portifolio/Screenshot_1.jpg'
 import Soma from '@/../public/portifolio/Screenshot_2.jpg'
 import Lux from '@/../public/portifolio/Screenshot_3.jpg'
 
-const Portifólio = () => {
+export default function Portifólio() {
 	return (
 		<section className='p-5  backdrop-blur-lg bg-gray-400/30 rounded-3xl'>
 			<div className='flex flex-col lg:flex-row gap-3 gap-y-5 justify-between'>
@@ -80,5 +80,3 @@ const Portifólio = () => {
 		</section>
 	)
 }
-
-export default Portifólio

@@ -68,7 +68,7 @@ export default function Navbar() {
 									Inicio
 								</li>
 								<li className='py-5 pl-3 backdrop-blur-lg bg-gray-400/30 rounded-xl'>
-									Portifólio
+									Portfolio
 								</li>
 								<li className='py-5 pl-3 backdrop-blur-lg bg-gray-400/30 rounded-xl'>
 									Tecnologias
@@ -122,27 +122,27 @@ export default function Navbar() {
 						<nav className=' hidden rounded-r-lg rounded-l-lg backdrop-blur-xl bg-white/50 md:flex'>
 							<ul className=' flex   '>
 								<Link href={'/'}>
-									<li className='py-2 px-3 pl-5 rounded-l-lg hover:bg-slate-800 hover:text-gray-300'>
+									<li className='py-2 px-3 pl-5 rounded-l-lg hover:bg-slate-800 hover:text-gray-300 font-medium text-lg'>
 										Inicio
 									</li>
 								</Link>
-								<Link href={'/portifolio'}>
-									<li className='py-2 px-3 hover:bg-slate-800 hover:text-gray-300'>
-										Portifólio
+								<Link href={'/portfolio'}>
+									<li className='py-2 px-3 hover:bg-slate-800 hover:text-gray-300 font-medium text-lg'>
+										Portfolio
 									</li>
 								</Link>
 								<Link href={'/tecnologias'}>
-									<li className='py-2 px-3 hover:bg-slate-800 hover:text-gray-300'>
+									<li className='py-2 px-3 hover:bg-slate-800 hover:text-gray-300 font-medium text-lg'>
 										Tecnologias
 									</li>
 								</Link>
 								<Link href={'/formacao-academica'}>
-									<li className='py-2 px-3 hover:bg-slate-800  hover:text-gray-300'>
+									<li className='py-2 px-3 hover:bg-slate-800  hover:text-gray-300 font-medium text-lg'>
 										Formação Acadêmica
 									</li>
 								</Link>
 								<Link href={'/contato'}>
-									<li className='py-2 px-3 pr-5 hover:bg-slate-800 rounded-r-lg hover:text-gray-300'>
+									<li className='py-2 px-3 pr-5 hover:bg-slate-800 rounded-r-lg hover:text-gray-300 font-medium text-lg'>
 										Contato
 									</li>
 								</Link>

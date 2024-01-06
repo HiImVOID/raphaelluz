@@ -14,7 +14,7 @@ import Mongo_icon from '@/../public/tecnologias/Mongo_icon.png'
 import API_icon from '@/../public/tecnologias/API_icon.png'
 import HTML_icon from '@/../public/tecnologias/HTML_icon.png'
 
-const TechIcons = () => {
+export default function TechIcons() {
 	return (
 		<section className='flex  flex-col items-center w-full gap-y-20 py-3'>
 			<h6 className='font-bold text-2xl mb-4'>Tecnologias:</h6>
@@ -164,5 +164,3 @@ const TechIcons = () => {
 		</section>
 	)
 }
-
-export default TechIcons

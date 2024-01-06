@@ -1,8 +1,10 @@
+import { ProjectProps } from '@/types/project.type'
+
 import BibliotecaOcultista from '@/../public/portifolio/Screenshot_1.jpg'
 import Soma from '@/../public/portifolio/Screenshot_2.jpg'
 import Lux from '@/../public/portifolio/Screenshot_3.jpg'
 
-const dataPortifolio = [
+const projects: ProjectProps[] = [
 	{
 		id: 1,
 		name: 'Biblioteca Ocultista  ',
@@ -20,7 +22,7 @@ const dataPortifolio = [
 		description:
 			'Soma atua com projetos e instalações de mobilias comeriais. ',
 		photo: Soma,
-		linkLive: 'https://soma-projetos-comerciais.vercel.app/',
+		linkLive: 'https://somaprojetos.ind.br/',
 		linkGit: 'https://github.com/HiImVOID/somaProjetosComerciais',
 	},
 	{
@@ -35,4 +37,4 @@ const dataPortifolio = [
 	},
 ]
 
-export default dataPortifolio
+export default projects

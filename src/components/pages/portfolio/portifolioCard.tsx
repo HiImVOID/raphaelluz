@@ -9,19 +9,9 @@ import TS_icon from '@/../public/tecnologias/TS_icon.png'
 import React_icon from '@/../public/tecnologias/React_icon.png'
 import Nest_icon from '@/../public/tecnologias/Next_icon.png'
 import Tailwind_icon from '@/../public/tecnologias/Tailwind_icon.png'
-interface PortifolioCardProps {
-	item: {
-		id: number
-		name: string
-		title: string
-		description: string
-		photo: any
-		linkLive: string
-		linkGit: string
-	}
-}
+import { ProjectProps } from '@/types/project.type'
 
-const PortifolioCard = ({ item }: PortifolioCardProps) => {
+const PortifolioCard = ({ item }: { item: ProjectProps }) => {
 	return (
 		<article className='flex  flex-col justify-between w-full h-full backdrop-blur-lg bg-gray-400/30 rounded-3xl overflow-hidden '>
 			<div className=''>
@@ -92,7 +82,7 @@ const PortifolioCard = ({ item }: PortifolioCardProps) => {
 						height={25}
 					/>
 				</span>
-				<span className='flex gap-x-3'>
+				<span className='flex justify-center gap-x-3'>
 					<Link
 						href={item.linkLive}
 						target='_blank'
@@ -106,9 +96,9 @@ const PortifolioCard = ({ item }: PortifolioCardProps) => {
 								viewBox='0 0 24 24'
 								fill='none'
 								stroke='currentColor'
-								stroke-width='2'
-								stroke-linecap='round'
-								stroke-linejoin='round'
+								strokeWidth='2'
+								strokeLinecap='round'
+								strokeLinejoin='round'
 								className='lucide lucide-link w-4 h-4'>
 								<path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71' />
 								<path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71' />
@@ -128,9 +118,9 @@ const PortifolioCard = ({ item }: PortifolioCardProps) => {
 								viewBox='0 0 24 24'
 								fill='none'
 								stroke='currentColor'
-								stroke-width='2'
-								stroke-linecap='round'
-								stroke-linejoin='round'
+								strokeWidth='2'
+								strokeLinecap='round'
+								strokeLinejoin='round'
 								className='lucide lucide-github'>
 								<path d='M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4' />
 								<path d='M9 18c-4.51 2-5-2-7-2' />

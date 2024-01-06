@@ -1,8 +1,8 @@
-import About from '@/components/mainLayout/aabout'
-import TechIcons from '@/components/mainLayout/ttechIcons'
-import PortifolioGrid from '@/components/portifolio/pportifolioGrid'
+import About from '@/components/pages/home/about'
+import TechIcons from '@/components/pages/home/techIcons'
+import PortifolioGrid from '@/components/pages/portfolio/portifolioGrid'
 
-export default function Home() {
+export default function HomePage() {
 	return (
 		<>
 			<div className='flex flex-col  lg:flex-row gap-3  justify-center items-center w-full h-[68vh]  rounded-3xl overflow-hidden'>
@@ -18,6 +18,7 @@ export default function Home() {
 			<br />
 			<br />
 			<br />
+			<h6 className='font-bold text-2xl mb-4'>Projetos:</h6>
 			<PortifolioGrid />
 		</>
 	)
