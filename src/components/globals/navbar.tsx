@@ -73,7 +73,7 @@ export default function Navbar() {
 								<li className='py-5 pl-3 backdrop-blur-lg bg-gray-400/30 rounded-xl'>
 									Tecnologias
 								</li>
-								<li className='py-5 pl-3 backdrop-blur-lg bg-gray-400/30 rounded-xl'>
+								<li className='py-5 pl-3 backdrop-blur-lg  whitespace-nowrap bg-gray-400/30 rounded-xl'>
 									Formação Academica
 								</li>
 								<li className='py-5 pl-3 backdrop-blur-lg bg-gray-400/30 rounded-xl'>
@@ -131,11 +131,11 @@ export default function Navbar() {
 										Portfolio
 									</li>
 								</Link>
-								<Link href={'/tecnologias'}>
+								{/* <Link href={'/tecnologias'}>
 									<li className='py-2 px-3 hover:bg-slate-800 hover:text-gray-300 font-medium text-lg'>
 										Tecnologias
 									</li>
-								</Link>
+								</Link> */}
 								<Link href={'/formacao-academica'}>
 									<li className='py-2 px-3 hover:bg-slate-800  hover:text-gray-300 font-medium text-lg'>
 										Formação Acadêmica

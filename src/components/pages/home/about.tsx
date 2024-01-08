@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function About() {
 	return (
-		<div className='flex flex-col lg:flex-row gap-8 items-center '>
+		<div className='flex flex-col lg:flex-row gap-8 items-center w-full'>
 			<main className='flex-col px-8 w-full justify-between items-center'>
 				<h2 className='font-bold text-4xl justify-center flex'>
 					Quem sou?

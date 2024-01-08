@@ -17,7 +17,7 @@ import HTML_icon from '@/../public/tecnologias/HTML_icon.png'
 export default function TechIcons() {
 	return (
 		<section className='flex  flex-col items-center w-full gap-y-20 py-3'>
-			<h6 className='font-bold text-2xl mb-4'>Tecnologias:</h6>
+			{/* 	<h6 className='font-bold text-2xl mb-4'>Tecnologias:</h6> */}
 
 			<div className='flex flex-wrap justify-around w-full gap-x-3 gap-y-8 px-2 '>
 				<div className='flex flex-col items-center '>

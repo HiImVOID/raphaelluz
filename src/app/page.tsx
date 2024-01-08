@@ -1,12 +1,17 @@
+import { Paragraph } from '@/components/globals/utils/paragraph/paragraph.index'
 import About from '@/components/pages/home/about'
 import Stacks from '@/components/pages/home/stacks'
 import TechIcons from '@/components/pages/home/techIcons'
+import ComputerScienceAndPsicology from '@/components/pages/home/computerScienceAndPsicology'
 import PortifolioGrid from '@/components/pages/portfolio/portifolioGrid'
 
 export default function HomePage() {
+	const x = 'y'
+	const y = x
+	const z = y
 	return (
 		<>
-			<div className='flex flex-col  lg:flex-row gap-3  justify-center items-center w-full h-[68vh]  rounded-3xl overflow-hidden'>
+			<div className='flex flex-col  lg:flex-row gap-3  justify-center items-center w-full h-[60vh]  rounded-3xl overflow-hidden'>
 				<h1 className='font-black text-5xl md:text-7xl'>Raphael Luz</h1>
 				<h2 className='p-3'>
 					Designs Responsivos e orientados a Mobile-First.
@@ -16,10 +21,14 @@ export default function HomePage() {
 			</div>
 			<About />
 			<TechIcons />
-			<br />
 			<Stacks />
-			<br />
-			<h6 className='font-bold text-2xl mb-4'>Projetos:</h6>
+			<ComputerScienceAndPsicology />
+			<div className='flex flex-col gap-y-4 justify-start items-start w-full'>
+				<Paragraph.Root>
+					<Paragraph.Title title='Conheça meu portfólio' />
+					<Paragraph.Content text='Com mais de 3 anos de experiência, já tive a oportunidade de realizar projetos de diversas áreas.' />
+				</Paragraph.Root>
+			</div>
 			<PortifolioGrid />
 		</>
 	)

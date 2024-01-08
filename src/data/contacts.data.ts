@@ -7,7 +7,6 @@ const contacts: ContactProps[] = [
 	{
 		id: 1,
 		name: 'GitHub',
-
 		image: GithubLogo,
 		title: 'GitHub',
 		value: 'HiImVOID',

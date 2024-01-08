@@ -16,9 +16,9 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang='pt_BR'>
-			<body className=' min-h-screen w-full bg-no-repeat backdrop-blur-lg bg-fixed bg-center bg-gradient-to-br  from-pink-200 from-10% via-indigo-300 via-50% to-teal-200 to-100%'>
+			<body className=' min-h-screen w-full bg-no-repeat backdrop-blur-lg bg-fixed bg-center bg-gradient-to-br   from-pink-200 from-10% via-indigo-300 via-50% to-teal-200 to-100%'>
 				<Navbar />
-				<div className=' container flex flex-col gap-y-3 mx-auto items-center p-2 pb-10'>
+				<div className=' container flex flex-col gap-y-20 mx-auto items-center p-4 lg:px-10 pb-10 '>
 					{children}
 				</div>
 			</body>
