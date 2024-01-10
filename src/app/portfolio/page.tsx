@@ -9,7 +9,6 @@ export default function PortfolioPage() {
 					Meu Portfolio:
 				</h1>
 				<PortifolioGrid />
-				<Portifólio />
 			</div>
 		</>
 	)

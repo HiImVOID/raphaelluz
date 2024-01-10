@@ -129,7 +129,10 @@ export default function Navbar() {
 						{/* Menu */}
 						<nav className=' hidden rounded-r-lg rounded-l-lg backdrop-blur-xl bg-white/50 md:flex'>
 							<ul className=' flex   '>
-								<Link href={'/'}>
+								<Link
+									href={
+										'https://hiimvoid.github.io/raphaelluz/'
+									}>
 									<li className='py-2 px-3 pl-5 rounded-l-lg hover:bg-slate-800 hover:text-gray-300 font-medium text-lg'>
 										Inicio
 									</li>
