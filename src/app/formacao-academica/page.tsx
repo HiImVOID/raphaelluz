@@ -23,12 +23,15 @@ export default function FormacaoAcademicaPage() {
 							Psicologia
 							<svg
 								xmlns='http://www.w3.org/2000/svg'
-								viewBox='0 0 256 256'>
-								<rect
-									width='256'
-									height='256'
+								viewBox='0 0 256 256'
+								width='30'
+								height='30'
+								fill='none'>
+								{/* <rect
+									width='30'
+									height='30'
 									fill='none'
-								/>
+								/> */}
 								<polygon
 									points='8 96 128 32 248 96 128 160 8 96'
 									fill='none'
@@ -67,18 +70,21 @@ export default function FormacaoAcademicaPage() {
 							Ciências da Computação
 							<svg
 								xmlns='http://www.w3.org/2000/svg'
-								viewBox='0 0 256 256'>
-								<rect
-									width='256'
-									height='256'
+								viewBox='0 0 256 256'
+								width='30'
+								height='30'
+								fill='none'>
+								{/* 	<rect
+									width='100'
+									height='100'
 									fill='none'
-								/>
+								/> */}
 								<polygon
 									points='8 96 128 32 248 96 128 160 8 96'
 									fill='none'
 									stroke='currentColor'
-									stroke-linecap='round'
-									stroke-linejoin='round'
+									strokeLinecap='round'
+									strokeLinejoin='round'
 									stroke-width='16'
 								/>
 								<polyline
@@ -87,15 +93,15 @@ export default function FormacaoAcademicaPage() {
 									stroke='currentColor'
 									stroke-linecap='round'
 									stroke-linejoin='round'
-									stroke-width='16'
+									strokeWidth='16'
 								/>
 								<path
 									d='M216,113.07v53.22a8,8,0,0,1-2,5.31c-11.3,12.59-38.9,36.4-86,36.4s-74.68-23.81-86-36.4a8,8,0,0,1-2-5.31V113.07'
 									fill='none'
 									stroke='currentColor'
-									stroke-linecap='round'
-									stroke-linejoin='round'
-									stroke-width='16'
+									strokeLinecap='round'
+									strokeLinejoin='round'
+									strokeWidth='16'
 								/>
 							</svg>
 						</Paragraph.Subtitle>
