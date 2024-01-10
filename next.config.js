@@ -5,6 +5,8 @@ module.exports = nextConfig
 /* 
 
 output: 'export', // import { StaticImageData } from 'next/image'
+
+
 images: {
 		remotePatterns: [
 			{
@@ -17,3 +19,4 @@ images: {
 	},
 
 */
+/* Eita trem bao so */
