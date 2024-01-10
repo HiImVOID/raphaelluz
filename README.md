@@ -46,4 +46,10 @@ pathname: '*',
 
 \*/
 
+/\*
+
+output: 'export', // import { StaticImageData } from 'next/image'
+
+\*/
+
 error "next export" does not work with App Router. Please use "output: export" in next.config.js
