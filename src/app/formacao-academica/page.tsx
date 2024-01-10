@@ -8,8 +8,6 @@ import PorquePsicologiaECiencias from '@/components/articles/porquePsicoeCiencia
 import { Paragraph } from '@/components/globals/utils/paragraph/paragraph.index'
 
 import Link from 'next/link'
-import Cap from '@/../public/icons/graduation-cap.svg'
-import Image from 'next/image'
 
 export default function FormacaoAcademicaPage() {
 	return (
