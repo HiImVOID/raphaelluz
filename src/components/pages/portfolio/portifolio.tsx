@@ -61,9 +61,15 @@ export default function Portifólio() {
 							</dd>
 						</dl>
 						<div className='w-full p-8 rounded-xl backdrop-blur-lg bg-white/50'>
-							guafsdgfuasd udash fsdhfdosf odifh ashfasdi
-							hfdasiohfasdfhasdf hasdfhasd hfasd ofhadsof hasdf
-							hasdof fdh asdiofhasd ofhsdof hasdf hiosdfhasd hfa
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Reprehenderit accusantium commodi provident
+							autem quidem amet aut! Laboriosam mollitia beatae
+							sapiente tempore. Enim, nostrum. Mollitia dolore
+							quam ad tenetur totam repellendus. Lorem ipsum dolor
+							sit amet consectetur adipisicing elit. Officiis
+							itaque autem nobis et exercitationem necessitatibus
+							explicabo quod eligendi quas quos. Quia officia
+							libero fuga porro impedit eius, laborum qui quam.
 						</div>
 					</div>
 				</div>

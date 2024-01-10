@@ -17,6 +17,10 @@ import SQL_icon from '@/../public/tecnologias/SQL_icon.png'
 import Mongo_icon from '@/../public/tecnologias/Mongo_icon.png'
 import API_icon from '@/../public/tecnologias/API_icon.png'
 
+import Front_End from '@/../public/images/website-design.png'
+import Back_End from '@/../public/images/backend.png'
+import DataBase from '@/../public/images/database.png'
+
 export default function Stacks() {
 	return (
 		<section className='flex flex-col  gap-4  items-start justify-between w-full'>
@@ -94,15 +98,15 @@ export default function Stacks() {
 					</p>
 				</div>
 				<Image
-					src={React_icon}
+					src={Front_End}
 					alt='React'
 					width={150}
 					height={150}
 				/>
 			</div>
-			<div className='flex flex-col md:flex-row justify-between items-center gap-5 self-end'>
+			<div className='flex flex-col-reverse md:flex-row justify-between items-center gap-5 self-end'>
 				<Image
-					src={React_icon}
+					src={Back_End}
 					alt='React'
 					width={150}
 					height={150}
@@ -175,7 +179,7 @@ export default function Stacks() {
 					</p>
 				</div>
 				<Image
-					src={React_icon}
+					src={DataBase}
 					alt='React'
 					width={150}
 					height={150}

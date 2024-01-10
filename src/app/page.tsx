@@ -6,9 +6,6 @@ import ComputerScienceAndPsicology from '@/components/pages/home/computerScience
 import PortifolioGrid from '@/components/pages/portfolio/portifolioGrid'
 
 export default function HomePage() {
-	const x = 'y'
-	const y = x
-	const z = y
 	return (
 		<>
 			<div className='flex flex-col  lg:flex-row gap-3  justify-center items-center w-full h-[60vh]  rounded-3xl overflow-hidden'>
@@ -25,8 +22,11 @@ export default function HomePage() {
 			<ComputerScienceAndPsicology />
 			<div className='flex flex-col gap-y-4 justify-start items-start w-full'>
 				<Paragraph.Root>
-					<Paragraph.Title title='Conheça meu portfólio' />
-					<Paragraph.Content text='Com mais de 3 anos de experiência, já tive a oportunidade de realizar projetos de diversas áreas.' />
+					<Paragraph.Title>Conheça meu portfólio</Paragraph.Title>
+					<Paragraph.Content>
+						Com mais de 3 anos de experiência, já tive a
+						oportunidade de realizar projetos de diversas áreas.
+					</Paragraph.Content>
 				</Paragraph.Root>
 			</div>
 			<PortifolioGrid />

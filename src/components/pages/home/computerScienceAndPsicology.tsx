@@ -7,11 +7,14 @@ export default function ComputerScienceAndPsicology() {
 		<section className='flex flex-col md:flex-row gap-3  justify-between items-center w-full h-max  rounded-3xl overflow-hidden'>
 			<div className='flex flex-col gap-y-8 py-6 w-full'>
 				<Paragraph.Root>
-					<Paragraph.Title title='Combinando Psicologia & Computação para soluções criativas' />
-					<Paragraph.Content
-						text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, hic dolores neque deleniti incidunt sapiente
-					'
-					/>
+					<Paragraph.Title>
+						Combinando Psicologia & Computação para soluções
+						criativas!
+					</Paragraph.Title>
+					<Paragraph.Content>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Tempora, hic dolores neque deleniti incidunt sapiente
+					</Paragraph.Content>
 				</Paragraph.Root>
 				{/* <h1 className='text-2xl font-medium my-4'>
 					Combinando Psicologia & Computação para soluções criativas

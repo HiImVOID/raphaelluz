@@ -21,7 +21,7 @@ export default function Navbar() {
 
 	return (
 		<>
-			{isOpen === true ? (
+			{isOpen === true && (
 				<div className='sticky top-0 z-20'>
 					<div
 						className=' fixed h-full inset-0   bg-slate-600/50 backdrop-blur-sm flex w-screen '
@@ -64,27 +64,35 @@ export default function Navbar() {
 								</svg>
 							</button> */}
 							<ul className='flex flex-col sticky top-10 whitespace-nowrap p-3 mt-5 gap-y-2 divide-y-2 divide-white'>
-								<li className=' py-5 pl-3 backdrop-blur-lg bg-gray-400/30 rounded-xl'>
+								<Link
+									href='/'
+									className=' py-5 pl-3 backdrop-blur-lg bg-gray-400/30 rounded-xl'>
 									Inicio
-								</li>
-								<li className='py-5 pl-3 backdrop-blur-lg bg-gray-400/30 rounded-xl'>
-									Portfolio
-								</li>
-								<li className='py-5 pl-3 backdrop-blur-lg bg-gray-400/30 rounded-xl'>
+								</Link>
+								<Link
+									href='/portfolio'
+									className='py-5 pl-3 backdrop-blur-lg bg-gray-400/30 rounded-xl'>
+									Portfólio
+								</Link>
+								{/* <Link
+									href='/'
+									className='py-5 pl-3 backdrop-blur-lg bg-gray-400/30 rounded-xl'>
 									Tecnologias
-								</li>
-								<li className='py-5 pl-3 backdrop-blur-lg  whitespace-nowrap bg-gray-400/30 rounded-xl'>
+								</Link> */}
+								<Link
+									href='/formacao-academica'
+									className='py-5 pl-3 backdrop-blur-lg  whitespace-nowrap bg-gray-400/30 rounded-xl'>
 									Formação Academica
-								</li>
-								<li className='py-5 pl-3 backdrop-blur-lg bg-gray-400/30 rounded-xl'>
+								</Link>
+								<Link
+									href='/contato'
+									className='py-5 pl-3 backdrop-blur-lg bg-gray-400/30 rounded-xl'>
 									Contato
-								</li>
+								</Link>
 							</ul>
 						</div>
 					</div>
 				</div>
-			) : (
-				<div className='hidden' />
 			)}
 
 			<div className='sticky top-0 z-20 w-full flex '>

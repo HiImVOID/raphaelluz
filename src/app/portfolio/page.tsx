@@ -8,7 +8,6 @@ export default function PortfolioPage() {
 				<h1 className='font-semibold text-2xl mx-4 my-6'>
 					Meu Portfolio:
 				</h1>
-
 				<PortifolioGrid />
 				<Portifólio />
 			</div>
