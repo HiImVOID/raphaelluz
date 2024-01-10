@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-	output: 'export',
-}
+const nextConfig = {}
 
 module.exports = nextConfig
+/* 
 
-/* 	images: {
+output: 'export', // import { StaticImageData } from 'next/image'
+images: {
 		remotePatterns: [
 			{
 				protocol: 'https',
@@ -14,4 +14,6 @@ module.exports = nextConfig
 				pathname: '*',
 			},
 		],
-	}, */
+	},
+
+*/

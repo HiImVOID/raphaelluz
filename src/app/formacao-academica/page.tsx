@@ -6,8 +6,10 @@
 import OquePsicologiaECienciasDaComputacaoTemEmComum from '@/components/articles/oquePsicologiaECienciasDaComputacaoTemEmComum'
 import PorquePsicologiaECiencias from '@/components/articles/porquePsicoeCiencias'
 import { Paragraph } from '@/components/globals/utils/paragraph/paragraph.index'
+import Cap from '@/../public/icons/klipartz.com.png'
 
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function FormacaoAcademicaPage() {
 	return (
@@ -19,42 +21,12 @@ export default function FormacaoAcademicaPage() {
 					<div className='p-4 bg-blue-200 rounded-lg'>
 						<Paragraph.Subtitle className='flex justify-between'>
 							Psicologia
-							<svg
-								xmlns='http://www.w3.org/2000/svg'
-								viewBox='0 0 256 256'
-								width='30'
-								height='30'
-								fill='none'>
-								{/* <rect
-									width='30'
-									height='30'
-									fill='none'
-								/> */}
-								<polygon
-									points='8 96 128 32 248 96 128 160 8 96'
-									fill='none'
-									stroke='currentColor'
-									strokeLinecap='round'
-									strokeLinejoin='round'
-									strokeWidth='16'
-								/>
-								<polyline
-									points='128 96 184 125.87 184 240'
-									fill='none'
-									stroke='currentColor'
-									strokeLinecap='round'
-									strokeLinejoin='round'
-									strokeWidth='16'
-								/>
-								<path
-									d='M216,113.07v53.22a8,8,0,0,1-2,5.31c-11.3,12.59-38.9,36.4-86,36.4s-74.68-23.81-86-36.4a8,8,0,0,1-2-5.31V113.07'
-									fill='none'
-									stroke='currentColor'
-									stroke-linecap='round'
-									stroke-linejoin='round'
-									stroke-width='16'
-								/>
-							</svg>
+							<Image
+								src={Cap}
+								width={30}
+								height={30}
+								alt='Cap'
+							/>
 						</Paragraph.Subtitle>
 						<Paragraph.Content>
 							Instituição: Claretiano / São Judas
@@ -66,42 +38,12 @@ export default function FormacaoAcademicaPage() {
 					<div className='p-4 bg-blue-200 rounded-lg'>
 						<Paragraph.Subtitle className='flex justify-between'>
 							Ciências da Computação
-							<svg
-								xmlns='http://www.w3.org/2000/svg'
-								viewBox='0 0 256 256'
-								width='30'
-								height='30'
-								fill='none'>
-								{/* 	<rect
-									width='100'
-									height='100'
-									fill='none'
-								/> */}
-								<polygon
-									points='8 96 128 32 248 96 128 160 8 96'
-									fill='none'
-									stroke='currentColor'
-									strokeLinecap='round'
-									strokeLinejoin='round'
-									stroke-width='16'
-								/>
-								<polyline
-									points='128 96 184 125.87 184 240'
-									fill='none'
-									stroke='currentColor'
-									stroke-linecap='round'
-									stroke-linejoin='round'
-									strokeWidth='16'
-								/>
-								<path
-									d='M216,113.07v53.22a8,8,0,0,1-2,5.31c-11.3,12.59-38.9,36.4-86,36.4s-74.68-23.81-86-36.4a8,8,0,0,1-2-5.31V113.07'
-									fill='none'
-									stroke='currentColor'
-									strokeLinecap='round'
-									strokeLinejoin='round'
-									strokeWidth='16'
-								/>
-							</svg>
+							<Image
+								src={Cap}
+								width={30}
+								height={30}
+								alt='Cap'
+							/>
 						</Paragraph.Subtitle>
 						<Paragraph.Content>
 							Instituição: UniAmericas Descomplica
