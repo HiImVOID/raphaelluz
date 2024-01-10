@@ -130,7 +130,6 @@ const PortifolioCard = ({ item }: { item: ProjectProps }) => {
 							</svg>
 						</button>
 					</Link>
-					):
 				</span>
 			</div>
 		</article>
