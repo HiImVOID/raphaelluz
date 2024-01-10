@@ -15,13 +15,16 @@ const PortifolioCard = ({ item }: { item: ProjectProps }) => {
 	return (
 		<article className='flex  flex-col justify-between w-full h-full backdrop-blur-lg bg-gray-400/30 rounded-3xl overflow-hidden '>
 			<div className=''>
-				<Image
-					width={700}
-					height={700}
-					alt={item.name}
-					src={item.photo}
-					className=' self-center'
-				/>
+				<div className=''>
+					<Image
+						width={700}
+						height={700}
+						alt={item.name}
+						src={item.photo}
+						className=' self-center w-full h-full'
+					/>
+				</div>
+
 				<div className='flex flex-col gap-y-5 p-5  h- justify-between'>
 					<div>
 						<h3 className='font-bold text-xl '>{item.name} </h3>
@@ -127,6 +130,7 @@ const PortifolioCard = ({ item }: { item: ProjectProps }) => {
 							</svg>
 						</button>
 					</Link>
+					):
 				</span>
 			</div>
 		</article>

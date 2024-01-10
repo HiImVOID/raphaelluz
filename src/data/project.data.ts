@@ -12,7 +12,7 @@ const projects: ProjectProps[] = [
 		title: 'Serviços Eletronicos',
 		description:
 			'Página para serviços de RankUp e Coach do League of Legends. Fácil navegação e design responsivo garantem uma experiência de usuário excepcional. ',
-		photo: 'https://cdn.discordapp.com/attachments/1192937826426298379/1194765401658237048/eloHype.jpg?ex=65b18afd&is=659f15fd&hm=69ea90ce382ef5895cd5115177688c353163c9de09b9dfc8274481ac645aedd3&',
+		photo: 'https://cdn.discordapp.com/attachments/1192937826426298379/1194780838991245523/Screenshot_1.jpg?ex=65b1995d&is=659f245d&hm=f7ddd734439ecd0ecedf5dc8ef08d3c42d9f98b80fcc12514f9ea1a95aefc104&',
 		linkLive: 'https://elohype.com',
 		linkGit: '',
 	},

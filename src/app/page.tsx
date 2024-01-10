@@ -19,7 +19,7 @@ export default function HomePage() {
 			<About />
 			<TechIcons />
 			<Stacks />
-			<ComputerScienceAndPsicology />
+			{/* <ComputerScienceAndPsicology /> */}
 			<div className='flex flex-col gap-y-4 justify-start items-start w-full'>
 				<Paragraph.Root>
 					<Paragraph.Title>Conheça meu portfólio</Paragraph.Title>
