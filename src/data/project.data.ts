@@ -10,10 +10,11 @@ const projects: ProjectProps[] = [
 		id: 1,
 		name: 'EloHype ',
 		title: 'Serviços Eletronicos',
-		description: 'Empreendimento que inicei sozinho.',
-		photo: 'https://cdn.discordapp.com/attachments/1192937826426298379/1194523066353586186/Hype.jpg?ex=65b0a94c&is=659e344c&hm=7bc3c4e2c5119ecc7bf6af6a67dbd1df68d286cee0b1d3f76c38629750b0cf0a&',
-		linkLive: '#',
-		linkGit: '#',
+		description:
+			'Página para serviços de RankUp e Coach do League of Legends. Fácil navegação e design responsivo garantem uma experiência de usuário excepcional. ',
+		photo: 'https://cdn.discordapp.com/attachments/1192937826426298379/1194765401658237048/eloHype.jpg?ex=65b18afd&is=659f15fd&hm=69ea90ce382ef5895cd5115177688c353163c9de09b9dfc8274481ac645aedd3&',
+		linkLive: 'https://elohype.com',
+		linkGit: '',
 	},
 	{
 		id: 2,

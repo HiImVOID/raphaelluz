@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import contacts from '@/data/contacts.data'
-import ContactItem from '@/components/pages/contato/contactItem'
+import fs from 'fs/promises'
+import path from 'path'
 
 import GithubLogo from '@/../public/contacts/github-logo.svg'
 import LinkedinLogo from '@/../public/contacts/linkedin-logo.svg'
@@ -20,7 +20,7 @@ export default function ContatoPage() {
 						alt='GithubLogo'
 						width={150}
 						height={150}
-						className='rounded-full p-10'
+						className=' p-10'
 					/>
 					<div className=' text-lg'>Github</div>
 					<div className='font-semibold text-xl'>HiImVOID</div>
@@ -36,7 +36,7 @@ export default function ContatoPage() {
 						alt='LinkedinLogo'
 						width={150}
 						height={150}
-						className='rounded-full p-10'
+						className=' p-10'
 					/>
 					<div className=' text-lg'>LinkedIn</div>
 					<div className='font-semibold text-xl'>
@@ -54,7 +54,7 @@ export default function ContatoPage() {
 						alt='WhatsappLogo'
 						width={150}
 						height={150}
-						className='rounded-full p-10'
+						className=' p-10 '
 					/>
 					<div className=' text-lg'>Whatsapp</div>
 					<div className='font-semibold text-xl'>

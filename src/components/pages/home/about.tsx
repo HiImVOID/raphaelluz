@@ -1,8 +1,24 @@
+'use client'
+
 import Image from 'next/image'
 import Perfil from '@/../public/Profile.jpg'
 import Link from 'next/link'
+import fs from 'fs/promises'
+import path from 'path'
 
 export default function About() {
+	/* const handleDownload = () => {
+		const dirPath = path.join(process.cwd(), 'public', '1.pdf')
+
+		const cv: any = fs
+			.readFile(dirPath, 'utf-8')
+			.then((cv) => console.log(cv))
+		const blob = new Blob([cv], { type: 'application/pdf' })
+		const link = document.createElement('a')
+		link.href = URL.createObjectURL(blob)
+		link.download = 'seu-arquivo.pdf'
+		link.click()
+	} */
 	return (
 		<div className='flex flex-col lg:flex-row gap-8 items-center w-full'>
 			<main className='flex-col px-8 w-full justify-between items-center'>
@@ -75,11 +91,13 @@ export default function About() {
 								</button>
 							</Link>
 						</div>
-						<div>
+						{/* <div>
 							<Link
 								href='https://github.com/HiImVOID/'
 								className='mt-4'>
-								<button className='flex justify-center items-center gap-x-2 bg-green-500 px-6 py-4 rounded-lg text-white'>
+								<button
+									onClick={handleDownload}
+									className='flex justify-center items-center gap-x-2 bg-green-500 px-6 py-4 rounded-lg text-white'>
 									Baixar CV.
 									<svg
 										xmlns='http://www.w3.org/2000/svg'
@@ -97,7 +115,7 @@ export default function About() {
 									</svg>
 								</button>
 							</Link>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</main>
