@@ -7,5 +7,5 @@ export interface ProjectProps {
 	description: string
 	photo: string | StaticImageData
 	linkLive: string
-	linkGit: string
+	linkGit?: string
 }
