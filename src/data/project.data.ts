@@ -43,7 +43,7 @@ const projects: ProjectProps[] = [
 		description:
 			'Projeto Pessoal que venho desenvolvendo a fim de evoluir minhas habilidades como desenvolvedor.',
 		photo: 'https://media.discordapp.net/attachments/1192937826426298379/1192937864737071114/Screenshot_3.jpg?ex=65aae4f6&is=65986ff6&hm=c4fe44c5f3ffaa63672d856ce1e7cc0fa9da7827f1a60e73546ed37327931653&=&format=webp&width=1020&height=473',
-		linkLive: '#',
+		linkLive: 'https://lux-zeta.vercel.app',
 		linkGit: '#',
 	},
 ]
