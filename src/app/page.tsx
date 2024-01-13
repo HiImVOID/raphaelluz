@@ -22,7 +22,7 @@ export default function HomePage() {
 			{/* <ComputerScienceAndPsicology /> */}
 			<div className='flex flex-col gap-y-4 justify-start items-start w-full'>
 				<Paragraph.Root>
-					<Paragraph.Title>Conheça meu portfólio</Paragraph.Title>
+					<Paragraph.Title>Conheça meu portifólio</Paragraph.Title>
 					<Paragraph.Content>
 						Com mais de 3 anos de experiência, já tive a
 						oportunidade de realizar projetos de diversas áreas.

@@ -139,7 +139,7 @@ export default function Navbar() {
 								</Link>
 								<Link href={'/portfolio'}>
 									<li className='py-2 px-3 hover:bg-slate-800 hover:text-gray-300 font-medium text-lg'>
-										Portfolio
+										Portifólio
 									</li>
 								</Link>
 								{/* <Link href={'/tecnologias'}>

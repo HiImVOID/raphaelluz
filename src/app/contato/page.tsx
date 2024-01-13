@@ -9,7 +9,7 @@ import Link from 'next/link'
 
 export default function ContatoPage() {
 	return (
-		<div className='flex flex-wrap gap-8 justify-center items-center w-full h-[68vh]  rounded-3xl overflow-hidden'>
+		<div className='flex flex-wrap gap-8 justify-center items-center w-full rounded-3xl '>
 			<div className='flex flex-col gap-y-4 justify-center '>
 				<Link
 					className='flex flex-col gap-y-4 justify-center items-center'
