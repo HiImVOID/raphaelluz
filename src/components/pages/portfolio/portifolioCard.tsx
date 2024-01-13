@@ -85,7 +85,7 @@ const PortifolioCard = ({ item }: { item: ProjectProps }) => {
 						height={25}
 					/>
 				</span>
-				<span className='flex justify-center gap-x-3'>
+				<span className='flex flex-col md:flex-row flex-wrap justify-center gap-3 items-center'>
 					<Link
 						href={item.linkLive}
 						target='_blank'

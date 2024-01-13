@@ -14,7 +14,7 @@ export default function About() {
 				<br />
 				<br />
 				<div className=' flex flex-col items-center justify-center text-black'>
-					<p className=' w-[60%] '>
+					<p className=' w-[90%] md:w-[60%] '>
 						Sou um desenvolvedor{' '}
 						<span className='font-bold'>Front End</span>,
 						bacharelando em{' '}
