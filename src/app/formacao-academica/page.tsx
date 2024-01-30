@@ -1,19 +1,15 @@
-// Preciso falar que eu cursei X tempo em cada instituição Ok
-// Falar porque eu tranquei OK
-// Preciso falar porque eu escolhi OK
 // Certificados / Notas dos cursos
 
 import OquePsicologiaECienciasDaComputacaoTemEmComum from '@/components/articles/oquePsicologiaECienciasDaComputacaoTemEmComum'
 import PorquePsicologiaECiencias from '@/components/articles/porquePsicoeCiencias'
 import { Paragraph } from '@/components/globals/utils/paragraph/paragraph.index'
 import Cap from '@/../public/icons/klipartz.com.png'
-
 import Link from 'next/link'
 import Image from 'next/image'
 
 export default function FormacaoAcademicaPage() {
 	return (
-		<div className='flex flex-col gap-y-5'>
+		<div className='flex flex-col gap-y-5 '>
 			<Paragraph.Root>
 				<Paragraph.Title>Formação Acadêmica</Paragraph.Title>
 				<Paragraph.Subtitle>Bacharelandos</Paragraph.Subtitle>
