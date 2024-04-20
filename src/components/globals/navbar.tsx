@@ -97,7 +97,7 @@ export default function Navbar() {
 
 			<div className='sticky top-0 z-20 w-full flex '>
 				<div className='container w-full  mx-auto '>
-					<header className='flex  justify-between items-center p-3 gap-x-10 w-full rounded-b-xl '>
+					<header className='flex  justify-between items-center p-3 gap-x-10 w-full   bg-gray-400/30'>
 						{/* Logo */}
 						<div className='flex gap-x-3'>
 							{/* <Image

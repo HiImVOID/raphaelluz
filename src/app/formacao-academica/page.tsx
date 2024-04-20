@@ -1,7 +1,7 @@
 // Certificados / Notas dos cursos
 
-import OquePsicologiaECienciasDaComputacaoTemEmComum from '@/components/articles/oquePsicologiaECienciasDaComputacaoTemEmComum'
-import PorquePsicologiaECiencias from '@/components/articles/porquePsicoeCiencias'
+import OquePsicologiaECienciasDaComputacaoTemEmComum from '@/app/formacao-academica/components/oquePsicologiaECienciasDaComputacaoTemEmComum'
+import PorquePsicologiaECiencias from '@/app/formacao-academica/components/porquePsicoeCiencias'
 import { Paragraph } from '@/components/globals/utils/paragraph/paragraph.index'
 import Cap from '@/../public/icons/klipartz.com.png'
 import Link from 'next/link'

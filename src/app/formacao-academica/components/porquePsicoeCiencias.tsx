@@ -1,4 +1,4 @@
-import { Paragraph } from '../globals/utils/paragraph/paragraph.index'
+import { Paragraph } from '../../../components/globals/utils/paragraph/paragraph.index'
 
 export default function PorquePsicologiaECiencias() {
 	return (
