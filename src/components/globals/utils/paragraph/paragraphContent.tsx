@@ -7,7 +7,7 @@ export default function ParagraphContent({
 	className,
 }: ClassNameProps) {
 	return (
-		<p className={`flex flex-wrap text-lg w-full h-max ${className}`}>
+		<p className={`flex flex-wrap text-lg w-full h-max px-2 ${className}`}>
 			{children}
 		</p>
 	)

@@ -63,16 +63,18 @@ export default function FormacaoAcademicaPage() {
 						clique aqui.
 					</Link>
 				</Paragraph.Content>
-				<div className='flex items-center'>
+				<div className='flex  w-full items-center'>
 					<Paragraph.Content className='flex items-center gap-x-3'>
 						Resposta Estruturada:
-						<div className='flex  bg-slate-900 px-3 py-2 gap-3 font-medium text-base rounded-lg '>
-							<div className='text-purple-600'>const</div>
-							<div className='text-yellow-700'>
+						<div className='flex flex-wrap bg-slate-900 px-3 py-2 gap-3 font-medium text-sm md:text-base rounded-lg '>
+							<div className='flex text-purple-600'>const</div>
+							<div className='flex text-yellow-700'>
 								respostaEstruturada
 							</div>
-							<div className='text-white'>=</div>
-							<div className='text-blue-500'>respostaRapida</div>
+							<div className='flex text-white'>=</div>
+							<div className='flex text-blue-500'>
+								respostaRapida
+							</div>
 						</div>
 					</Paragraph.Content>
 				</div>
