@@ -19,8 +19,8 @@ export default function TechIcons() {
 		<section className='flex  flex-col items-center w-full gap-y-20 py-3 overflow-hidden'>
 			{/* 	<h6 className='font-bold text-2xl mb-4'>Tecnologias:</h6> */}
 
-			<div className='flex w-full  whitespace-nowrap'>
-				<div className='flex justify-around w-full gap-x-3 gap-y-8 px-2 animate-slide'>
+			<div className='flex w-full whitespace-nowrap '>
+				<div className='flex justify-around w-max gap-x-3 gap-y-8 px-2 animate-slide'>
 					<div className='flex flex-col items-center  min-w-max'>
 						<Image
 							src={Git_icon}
@@ -31,7 +31,7 @@ export default function TechIcons() {
 						/>
 						<span className='font-semibold'>Git</span>
 					</div>
-					<div className='flex flex-col items-center min-w-max'>
+					<div className=' md:flex flex-col items-center min-w-max'>
 						<Image
 							src={HTML_icon}
 							width={200}
@@ -162,7 +162,7 @@ export default function TechIcons() {
 						<span className='font-semibold'>MongoDB</span>
 					</div>
 				</div>
-				<div className='flex justify-around w-full gap-x-3 gap-y-8 px-2 animate-slide'>
+				<div className='flex justify-around w-max gap-x-3 gap-y-8 px-2 animate-slide'>
 					<div className='flex flex-col items-center min-w-max '>
 						<Image
 							src={Git_icon}
