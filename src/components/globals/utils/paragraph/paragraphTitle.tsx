@@ -6,6 +6,6 @@ export default function ParagraphTitle({
 	className,
 }: ClassNameProps) {
 	return (
-		<p className={`text-2xl font-medium my-4 ${className}`}>{children}</p>
+		<p className={`flex text-2xl font-medium my-4 ${className}`}>{children}</p>
 	)
 }
