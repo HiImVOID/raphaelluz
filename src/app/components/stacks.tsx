@@ -27,7 +27,7 @@ export default function Stacks() {
 			<div className='flex flex-col md:flex-row justify-between items-center gap-5'>
 				<div className='flex flex-col gap-y-5'>
 					<h1 className='text-2xl font-medium my-4'>Front End</h1>
-					<div className='flex flex-wrap w-full justify-start items-center gap-5'>
+					<div className='flex flex-wrap w-full justify-start items-center gap-5 '>
 						<Image
 							src={HTML_icon}
 							width={200}
