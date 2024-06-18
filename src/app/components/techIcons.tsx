@@ -19,7 +19,7 @@ export default function TechIcons() {
 		<section className='flex  flex-col items-center w-full gap-y-20 py-3 overflow-hidden'>
 			{/* 	<h6 className='font-bold text-2xl mb-4'>Tecnologias:</h6> */}
 
-			<div className='flex w-full whitespace-nowrap '>
+			<div className='flex w-full whitespace-nowrap items-center'>
 				<div className='flex justify-around w-max gap-x-3 gap-y-8 px-2 animate-slide'>
 					<div className='flex flex-col items-center  min-w-max'>
 						<Image

@@ -1,6 +1,5 @@
 import { Paragraph } from '@/components/globals/utils/paragraph/paragraph.index'
 import About from '@/app/components/about'
-
 import AssessoriaPcDLuzCard from '@/app/portfolio/components/cards/AssessoriaPcDLuz'
 import BibliotecaOcultistaCard from '@/app/portfolio/components/cards/BibliotecaOcultista'
 import EloHypeCard from '@/app/portfolio/components/cards/EloHype'
