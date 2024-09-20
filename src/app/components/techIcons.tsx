@@ -19,7 +19,7 @@ export default function TechIcons() {
 	return (
 		<section className='flex  flex-col w-full gap-y-20 overflow-hidden'>
 			<div className='flex w-full whitespace-nowrap items-center '>
-				<div className='flex justify-around w-max  gap-x-3 gap-y-8 px-2 animate-slide'>
+				<div className='flex justify-around w-max xl:min-w-full gap-x-3 gap-y-8 px-2 animate-slide'>
 					<div className='flex flex-col items-center  min-w-max'>
 						<Image
 							src={Git_icon}
@@ -171,7 +171,7 @@ export default function TechIcons() {
 						<span className='font-semibold'>ORMs</span>
 					</div>
 				</div>
-				<div className='flex justify-around w-max  gap-x-3 gap-y-8 px-2 animate-slide'>
+				<div className='flex justify-around w-max xl:min-w-full gap-x-3 gap-y-8 px-2 animate-slide'>
 					<div className='flex flex-col items-center min-w-max '>
 						<Image
 							src={Git_icon}
