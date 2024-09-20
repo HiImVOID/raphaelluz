@@ -20,6 +20,7 @@ import API_icon from '@/../public/tecnologias/API_icon.png'
 import Front_End from '@/../public/images/website-design.png'
 import Back_End from '@/../public/images/backend.png'
 import DataBase from '@/../public/images/database.png'
+import ORM from '@/../public/tecnologias/ORM.png'
 
 export default function Stacks() {
 	return (
@@ -159,6 +160,13 @@ export default function Stacks() {
 						/>
 						<Image
 							src={Mongo_icon}
+							width={200}
+							height={200}
+							alt='Git'
+							className='w-10 h-10  '
+						/>
+						<Image
+							src={ORM}
 							width={200}
 							height={200}
 							alt='Git'

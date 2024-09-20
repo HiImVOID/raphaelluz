@@ -7,6 +7,7 @@ import LuxCard from '@/app/portfolio/components/cards/Lux'
 import SomaProjetosComerciaisCard from '@/app/portfolio/components/cards/SomaProjetosComerciais'
 import TechIcons from './components/techIcons'
 import Stacks from './components/stacks'
+import ProfessionalProfile from './components/professonalProfile'
 
 export default function HomePage() {
 	return (
@@ -14,13 +15,14 @@ export default function HomePage() {
 			<div className='flex flex-col  lg:flex-row gap-3  justify-center items-center w-full h-[60vh]  rounded-3xl overflow-hidden'>
 				<h1 className='font-black text-5xl md:text-7xl'>Raphael Luz</h1>
 				<h2 className='p-3 text-lg'>
-					Designs Responsivos e orientados a Mobile-First.
+					Códigos que Brilham - Raphael Luz, seu desenvolvedor Fullstack
 					<br />
-					Mais que um front-end, uma LUZ.
+					Mais que um desenvolvedor, uma LUZ.
 				</h2>
 			</div>
 			<About />
 			<TechIcons />
+			<ProfessionalProfile />
 			<Stacks />
 			{/* <ComputerScienceAndPsicology /> */}
 			<div className='flex flex-col gap-y-4 justify-start items-start w-full'>
